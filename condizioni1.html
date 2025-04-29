@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+
+        let voto = prompt('inserisci il tuo voto');
+        voto = Math.floor(voto)
+
+        if(voto > 0 && voto < 18){
+
+            console.log('insufficiente');
+
+        }else if(voto >= 18 && voto < 21){
+
+            console.log(`${voto}, è sufficiente.`);
+        
+        }else if(voto >= 21 && voto < 24){
+
+            console.log(`${voto}, è buono.`);
+            
+        }else if(voto >= 24 && voto < 27){
+           
+            console.log(`${voto}, è discreto!`);
+            
+        }else if(voto >= 27 && voto < 30){
+
+            console.log(`${voto}, ottimo!`);
+            
+        }else if(voto = 30){
+
+            console.log('30, eccellente!');
+            
+        }else{
+
+            console.log('voto non valido');
+            
+        }
+
+
+        
+    </script>
+</body>
+</html>
